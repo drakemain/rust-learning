@@ -1,0 +1,595 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"print",
+				"println\tprintln!(…)"
+			],
+			[
+				"in",
+				"init\tbool init()"
+			],
+			[
+				"HEADER",
+				"HEADER_BOILERPLATE"
+			],
+			[
+				"sco",
+				"score"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"shift",
+				"shiftDelay"
+			],
+			[
+				"rotate",
+				"rotatedShape"
+			],
+			[
+				"scored",
+				"scoreDisplay"
+			],
+			[
+				"game",
+				"gameState"
+			],
+			[
+				"score",
+				"scoreElement"
+			],
+			[
+				"gel",
+				"getElementById"
+			],
+			[
+				"ins",
+				"insertActiveShape"
+			],
+			[
+				"rot",
+				"rotateActiveShape"
+			],
+			[
+				"new",
+				"newCoords"
+			],
+			[
+				"curr",
+				"currentCoords"
+			],
+			[
+				"line",
+				"lineCheck"
+			],
+			[
+				"lin",
+				"getCompleteLineRows"
+			],
+			[
+				"checkfo",
+				"checkRowForLine"
+			],
+			[
+				"row",
+				"rowIndex"
+			],
+			[
+				"column",
+				"columnIndex"
+			],
+			[
+				"col",
+				"column"
+			],
+			[
+				"collis",
+				"collisionCheck"
+			],
+			[
+				"coll",
+				"collisionCheck"
+			],
+			[
+				"shadow",
+				"text-shadow"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"cli",
+				"clickedStar"
+			],
+			[
+				"getl",
+				"getElementsByTagName"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"sig",
+				"sigPath"
+			],
+			[
+				"text",
+				"textarea\tTag"
+			],
+			[
+				"setSte",
+				"setSteamCacheExpireTime"
+			],
+			[
+				"STE",
+				"STEAM_CACHE_EXPIRE_seconds"
+			],
+			[
+				"upd",
+				"updateSteamProfile"
+			],
+			[
+				"getCa",
+				"getCacheFile"
+			],
+			[
+				"Us",
+				"userInfo"
+			],
+			[
+				"Buil",
+				"buildSteamCache"
+			],
+			[
+				"fet",
+				"fetchedCache"
+			],
+			[
+				"fetch",
+				"fetchCacheFile"
+			],
+			[
+				"local",
+				"localSteamCache"
+			],
+			[
+				"getCach",
+				"getCacheFile"
+			],
+			[
+				"steamC",
+				"refreshedSteamCache"
+			],
+			[
+				"expire",
+				"expireThreshhold"
+			],
+			[
+				"getCac",
+				"getCacheFile"
+			],
+			[
+				"Chec",
+				"checkForValidID"
+			],
+			[
+				"Che",
+				"checkForValidID"
+			],
+			[
+				"chec",
+				"checkFileExists"
+			],
+			[
+				"steam",
+				"steam-id-form"
+			],
+			[
+				"che",
+				"checkForValidID"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "{\n    // Enable the on-save syntax checking plugin, which will highlight any\n    // build errors or warnings.\n    \"rust_syntax_checking\": true,\n\n    // The method used to check code on-save.\n    // \"check\" or \"clippy\" (see README.md)\n    \"rust_syntax_checking_method\": \"check\",\n\n    // Enable checking of test code within #[cfg(test)] sections.\n    // `check` method requires Rust 1.23 or newer.\n    \"rust_syntax_checking_include_tests\": true,\n\n    // If true, will not display warning messages.\n    \"rust_syntax_hide_warnings\": false,\n\n    // Color of messages for \"clear\" theme.\n    // These use CSS colors.  See\n    // https://www.sublimetext.com/docs/3/minihtml.html for more detail.\n    \"rust_syntax_error_color\": \"var(--redish)\",\n    \"rust_syntax_warning_color\": \"var(--yellowish)\",\n    \"rust_syntax_note_color\": \"var(--greenish)\",\n    \"rust_syntax_help_color\": \"var(--bluish)\",\n\n    // Specify environment variables to add when running Cargo.\n    // \"rust_env\": {\"PATH\": \"$PATH:$HOME/.cargo/bin\"}\n\n    // If true, will use the environment from the user's login shell when\n    // running Cargo.\n    \"rust_include_shell_env\": true,\n\n    // For errors/warnings, how to show the inline message.\n    // \"normal\" - Shows the message inline.\n    // \"popup\" - Show popup on mouse hover.\n    // \"none\" - Do not show the message inline.\n    \"rust_phantom_style\": \"normal\",\n\n    // For errors/warnings, how to highlight the region of the error.\n    // \"outline\" - Outlines the region.\n    // \"none\" - No outlining.\n    \"rust_region_style\": \"outline\",\n\n    // For errors/warnings, what kind of icon to use in the gutter.\n    // \"shape\" - Shape-based icons.\n    // \"circle\" - Simple circle icons.\n    // \"none\" - Do not place icons in the gutter.\n    \"rust_gutter_style\": \"shape\",\n\n    // Style for displaying inline messages.  Can be:\n    // \"clear\" - Clear background with colors matching your color scheme.\n    // \"solid\" - Solid background color.\n    \"rust_message_theme\": \"clear\",\n\n    // If your cargo project has several build targets, it's possible to specify mapping of\n    // source code filenames to the target names to enable syntax checking.\n    // \"projects\": {\n    //     // One entry per project. Key is a project name.\n    //     \"my_cool_stuff\": {\n    //         \"root\": \"/path/to/my/cool/stuff/project\",  // without trailing /src\n    //         // Targets will be used to replace {target} part in the syntax check command:\n    //         // command = 'cargo rustc {target} -- <some options>'. If no one target matches\n    //         // an empty string will be used.\n    //         \"targets\": {\n    //             \"bin/foo.rs\": \"--bin foo\",  // format is \"source_code_filename -> target_name\"\n    //             \"bin/bar.rs\": \"--bin bar\",\n    //             \"_default\": \"--lib\"         // or \"--bin main\"\n    //         }\n    //     }\n    // }\n    \"auto_complete_triggers\":\n    [\n        {\n            \"characters\": \".:\",\n            \"selector\": \"source.rust\"\n        }\n    ]\n}\n",
+			"file": "/home/drake/.config/sublime-text-3/Packages/Rust Enhanced/RustEnhanced.sublime-settings",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 2990,
+				"line_ending": "Unix",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"file": "/home/drake/.config/sublime-text-3/Packages/User/RustEnhanced.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 106,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 708.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"lsp",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"material",
+				"Material Theme: Advanced configuration"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"gist",
+				"Gist: Create Private Gist"
+			]
+		],
+		"width": 898.0
+	},
+	"console":
+	{
+		"height": 403.0,
+		"history":
+		[
+			"test",
+			"git",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/drake/dev/rust/communicator/src/lib.rs",
+		"/home/drake/dev/rust/communicator/src/client.rs",
+		"/home/drake/dev/rust/communicator/src/network/mod.rs",
+		"/home/drake/dev/rust/communicator/src/network/server.rs",
+		"/home/drake/dev/rust/communicator/src/main.rs",
+		"/home/drake/dev/rust/heads_or_tails/Cargo.toml",
+		"/home/drake/dev/rust/hello_world/src/main.rs",
+		"/home/drake/dev/rust/hello.rs",
+		"/home/drake/dev/sdl/sdlHelloWorld/helloworld.cc",
+		"/home/drake/dev/sdl/sdlHelloWorld/.gitignore",
+		"/home/drake/dev/sdl/sdlHelloWorld/src/cc/Sprite.cc",
+		"/home/drake/dev/sdl/sdlHelloWorld/src/headers/Sprite.h",
+		"/home/drake/dev/sdl/sdlHelloWorld/utils/makeClass.sh",
+		"/home/drake/dev/sdl/sdlHelloWorld/CMakeLists.txt",
+		"/home/drake/dev/sdl/sdlHelloWorld/src/CMakeLists.txt",
+		"/home/drake/dev/sdl/sdlHelloWorld/CMakeCache.txt",
+		"/home/drake/dev/sdl/sdlHelloWorld/src/cc/new.cc",
+		"/home/drake/dev/sdl/sdlHelloWorld/build.sh",
+		"/home/drake/dev/sdl/sdlHelloWorld/cmake_install.cmake",
+		"/home/drake/.config/sublime-text-3/Packages/ClangAutoComplete/ClangAutoComplete.sublime-settings",
+		"/home/drake/dev/sdl/sdlHelloWorld/ClangAutoComplete.sublime-settings",
+		"/home/drake/.config/sublime-text-3/Packages/User/ClangAutoComplete.sublime-settings",
+		"/home/drake/dev/sdl/sdlHelloWorld/out",
+		"/home/drake/dev/sdl/sdlHelloWorld/build.zsh",
+		"/home/drake/dev/bpe/.git/COMMIT_EDITMSG",
+		"/home/drake/dev/tetris/index.html",
+		"/home/drake/dev/tetris/css/tetris.css",
+		"/home/drake/dev/tetris/tetris.js",
+		"/home/drake/dev/tetris/tetris.css",
+		"/home/drake/dev/tetris/tetris.html",
+		"/home/drake/dev/tetris/js/tetris.js",
+		"/home/drake/dev/amazon-interview-prep/navbar/CSS/navbar.css",
+		"/home/drake/dev/amazon-interview-prep/navbar/index.html",
+		"/home/drake/dev/amazon-interview-prep/navbar/dropdown.html",
+		"/home/drake/dev/amazon-interview-prep/navbar/CSS/dropdown.css",
+		"/home/drake/dev/amazon-interview-prep/navbar/navbar.html",
+		"/home/drake/dev/amazon-interview-prep/rating-widget/CSS/rating-widget-css.css",
+		"/home/drake/dev/amazon-interview-prep/rating-widget/index.html",
+		"/home/drake/dev/amazon-interview-prep/js-closure/sum.js",
+		"/home/drake/dev/amazon-interview-prep/navbar/JS/navbar.js",
+		"/home/drake/dev/amazon-interview-prep/rating-widget/JS/rating-widget.js",
+		"/home/drake/dev/amazon-interview-prep/rating-widget/CSS/rating-widget.css",
+		"/home/drake/dev/amazon-interview-prep/rating-widget/CSS\n/rating-widget.css",
+		"/home/drake/dev/amazon-interview-prep/product-id-widget/widget.html",
+		"/home/drake/dev/steamsig/src/render.js",
+		"/home/drake/dev/steamsig/config/.env",
+		"/home/drake/dev/steamsig/src/initialize.js",
+		"/home/drake/dev/steamsig/src/steam.js",
+		"/home/drake/dev/steamsig/src/validate.js",
+		"/home/drake/dev/steamsig/.tern-project",
+		"/home/drake/.config/sublime-text-3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/home/drake/.config/sublime-text-3/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/home/drake/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/drake/dev/steamsig/test/steam.js",
+		"/home/drake/.config/sublime-text-3/Packages/User/Gist.sublime-settings",
+		"/home/drake/dev/steamsig/assets/JSON/attributes.JSON",
+		"/home/drake/dev/steamsig/assets/JSON/elements.json",
+		"/home/drake/dev/steamsig/package.json",
+		"/home/drake/dev/steamsig/app.js",
+		"/home/drake/dev/steamsig/src/parser.js",
+		"/home/drake/dev/steamsig/utils/clear-steam-cache.sh",
+		"/home/drake/dev/steamsig/assets/profiles/76561198007943939/steam.JSON",
+		"/home/drake/dev/steamsig/views/form.handlebars",
+		"/home/drake/dev/steamsig/test.js",
+		"/home/drake/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/home/drake/dev/steamsig/.eslintrc.json",
+		"/home/drake/dev/steamsig/test/testClass.js",
+		"/home/drake/dev/steamsig/assets/profiles/76561197964880220/steam.JSON",
+		"/home/drake/dev/steamsig/assets/profiles/76561197964880220/canvas.JSON",
+		"/home/drake/dev/steamsig/assets/profiles/76561197964880220/old.JSON",
+		"/home/drake/dev/steamsig/assets/profiles/76561197991558078",
+		"/home/drake/dev/steamsig/assets/profiles/76561197964880220/new.JSON",
+		"/home/drake/dev/steamsig/assets/profiles/76561197991558078/canvas.JSON",
+		"/home/drake/dev/steamsig/76561197991558078",
+		"/home/drake/dev/steamsig/assets/profiles/76561197991558078/steam.JSON",
+		"/home/drake/dev/steamsig/views/layouts/main.handlebars",
+		"/home/drake/dev/steamsig/src/error.js",
+		"/home/drake/dev/steamsig/views/error.handlebars",
+		"/home/drake/dev/steamsig/assets/profiles/76561197964880220/userData.JSON",
+		"/etc/acpi/handler.sh",
+		"/etc/acpi/events/anything",
+		"/home/drake/dev/steamsig/src/steamsig.sublime-project",
+		"/home/drake/dev/steamsig/.git/COMMIT_EDITMSG",
+		"/home/drake/dev/steamsig/src/json-format.js",
+		"/home/drake/dev/steamsig/test/parser.js"
+	],
+	"find":
+	{
+		"height": 83.0
+	},
+	"find_in_files":
+	{
+		"height": 170.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"rls"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/drake/.config/sublime-text-3/Packages/Rust Enhanced/RustEnhanced.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2990,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								491,
+								491
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"edit_settings_other_view_id": 72,
+							"edit_settings_view": "base",
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/zzz A File Icon zzz/aliases/JSON (Sublime).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "/home/drake/.config/sublime-text-3/Packages/User/RustEnhanced.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 106,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"edit_settings_other_view_id": 71,
+							"edit_settings_view": "user",
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/zzz A File Icon zzz/aliases/JSON (Sublime).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 59.0
+	},
+	"input":
+	{
+		"height": 138.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 268.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "heads_or_tails.sublime-project",
+	"replace":
+	{
+		"height": 110.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 1000.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/dev/steamapi/steamwrap.sublime-project"
+			]
+		],
+		"width": 760.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 614.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
